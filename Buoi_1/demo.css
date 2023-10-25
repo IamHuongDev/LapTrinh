@@ -1,0 +1,30 @@
+
+h4 {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    color: #292929;
+    letter-spacing: 3px;
+    line-height: 32px;
+    text-transform: uppercase;
+    font-family: 'Raleway', sans-serif;
+}
+
+p {
+    color: #666666;
+    line-height: 28px;
+    margin: 0px 0px 64px;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+}
+
+img {
+
+    width: 269px;
+    height: 269px;
+    object-fit: cover;
+    line-height: 24px;
+    background-position: 50% 50%;
+    top: 0;
+    left: 0;
+}
