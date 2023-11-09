@@ -9,10 +9,21 @@
   box-sizing: border-box;
 }
 
+html {
+  font-family: 'Inter', sans-serif;
+}
+
+body {
+  margin-top: 40px;
+}
 
 
 @mixin margin-top-xl {
   margin-top: 60px;
+}
+
+@mixin margin-bottom-xl{
+  margin-bottom: 130px;
 }
 
 @mixin flex-center {
@@ -148,7 +159,7 @@
 
 
 
-#category {
+.section--category {
   margin-bottom: 84px;
   .title {
     display: flex;
@@ -341,8 +352,9 @@
 }
 
 .service {
-  @include margin-top-xl;
   
+  @include margin-top-xl;
+  @include margin-bottom-xl;
   .card {
     width: calc((100% / 3) - 30px);
     min-width: 300px;
@@ -425,7 +437,7 @@
     max-width: 100%;
   }
 
-  #category .category {
+  .section--category .category {
     width: calc((100% - (var(--gap) * (var(--number) - 1))) / var(--number));
   }
 }
@@ -435,7 +447,7 @@
     max-width: 540px;
   }
 
-  #category .category {
+  .section--category .category {
     width: calc((100% - (var(--gap) * (var(--number) - 1))) / var(--number));
   }
 }
